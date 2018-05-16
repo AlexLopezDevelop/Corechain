@@ -7,8 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC0935322079363D000C69A7 /* DataItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0935312079363D000C69A7 /* DataItem.swift */; };
+		AC2C01D6207BB00E00B79456 /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AC2C01D3207BB00D00B79456 /* ProgressHUD.bundle */; };
+		AC2C01D7207BB00E00B79456 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2C01D5207BB00E00B79456 /* ProgressHUD.m */; };
+		AC2C01DB207BEE8700B79456 /* EditItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2C01DA207BEE8700B79456 /* EditItem.swift */; };
+		AC3E2A93205AFB33000751ED /* ListItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3E2A92205AFB33000751ED /* ListItems.swift */; };
+		ACB81C80204EEA6900F6F40B /* CurrencyListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB81C7F204EEA6900F6F40B /* CurrencyListTableViewController.swift */; };
+		ACB81C82204EEF9E00F6F40B /* AddCurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB81C81204EEF9E00F6F40B /* AddCurrency.swift */; };
+		ACBDA6C72052F2B80062C640 /* Categories+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBDA6C12052F2B80062C640 /* Categories+CoreDataClass.swift */; };
+		ACBDA6C82052F2B80062C640 /* Categories+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBDA6C22052F2B80062C640 /* Categories+CoreDataProperties.swift */; };
+		ACBDA6C92052F2B80062C640 /* Currency+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBDA6C32052F2B80062C640 /* Currency+CoreDataClass.swift */; };
+		ACBDA6CA2052F2B80062C640 /* Currency+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBDA6C42052F2B80062C640 /* Currency+CoreDataProperties.swift */; };
+		ACBDA6CB2052F2B80062C640 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBDA6C52052F2B80062C640 /* User+CoreDataClass.swift */; };
+		ACBDA6CC2052F2B80062C640 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBDA6C62052F2B80062C640 /* User+CoreDataProperties.swift */; };
+		ACBDA6CE2052F48F0062C640 /* AddUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBDA6CD2052F48F0062C640 /* AddUser.swift */; };
+		ACBDA6D02053F0C10062C640 /* LogIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBDA6CF2053F0C10062C640 /* LogIn.swift */; };
+		ACBDA6D2205417E80062C640 /* editProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBDA6D1205417E80062C640 /* editProfile.swift */; };
+		ACCE166E205992EE009104EF /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCE166D205992EE009104EF /* Item.swift */; };
 		ACCE6B44204DC5F500F1CBEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCE6B43204DC5F500F1CBEB /* AppDelegate.swift */; };
-		ACCE6B46204DC5F500F1CBEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCE6B45204DC5F500F1CBEB /* ViewController.swift */; };
 		ACCE6B49204DC5F500F1CBEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACCE6B47204DC5F500F1CBEB /* Main.storyboard */; };
 		ACCE6B4C204DC5F500F1CBEB /* Corechain.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ACCE6B4A204DC5F500F1CBEB /* Corechain.xcdatamodeld */; };
 		ACCE6B4E204DC5F500F1CBEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACCE6B4D204DC5F500F1CBEB /* Assets.xcassets */; };
@@ -16,9 +32,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC0935312079363D000C69A7 /* DataItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataItem.swift; sourceTree = "<group>"; };
+		AC2C01D2207BB00C00B79456 /* Corechain-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Corechain-Bridging-Header.h"; sourceTree = "<group>"; };
+		AC2C01D3207BB00D00B79456 /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ProgressHUD.bundle; sourceTree = "<group>"; };
+		AC2C01D4207BB00E00B79456 /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
+		AC2C01D5207BB00E00B79456 /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
+		AC2C01DA207BEE8700B79456 /* EditItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditItem.swift; sourceTree = "<group>"; };
+		AC3E2A92205AFB33000751ED /* ListItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItems.swift; sourceTree = "<group>"; };
+		ACB81C7F204EEA6900F6F40B /* CurrencyListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyListTableViewController.swift; sourceTree = SOURCE_ROOT; };
+		ACB81C81204EEF9E00F6F40B /* AddCurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCurrency.swift; sourceTree = "<group>"; };
+		ACBDA6C12052F2B80062C640 /* Categories+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Categories+CoreDataClass.swift"; sourceTree = "<group>"; };
+		ACBDA6C22052F2B80062C640 /* Categories+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Categories+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		ACBDA6C32052F2B80062C640 /* Currency+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Currency+CoreDataClass.swift"; sourceTree = "<group>"; };
+		ACBDA6C42052F2B80062C640 /* Currency+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Currency+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		ACBDA6C52052F2B80062C640 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
+		ACBDA6C62052F2B80062C640 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		ACBDA6CD2052F48F0062C640 /* AddUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUser.swift; sourceTree = "<group>"; };
+		ACBDA6CF2053F0C10062C640 /* LogIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogIn.swift; sourceTree = "<group>"; };
+		ACBDA6D1205417E80062C640 /* editProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = editProfile.swift; sourceTree = "<group>"; };
+		ACCE166D205992EE009104EF /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		ACCE6B40204DC5F400F1CBEB /* Corechain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Corechain.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACCE6B43204DC5F500F1CBEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ACCE6B45204DC5F500F1CBEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ACCE6B48204DC5F500F1CBEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ACCE6B4B204DC5F500F1CBEB /* Corechain.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Corechain.xcdatamodel; sourceTree = "<group>"; };
 		ACCE6B4D204DC5F500F1CBEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -40,6 +74,12 @@
 		ACCE6B37204DC5F400F1CBEB = {
 			isa = PBXGroup;
 			children = (
+				ACBDA6C12052F2B80062C640 /* Categories+CoreDataClass.swift */,
+				ACBDA6C22052F2B80062C640 /* Categories+CoreDataProperties.swift */,
+				ACBDA6C32052F2B80062C640 /* Currency+CoreDataClass.swift */,
+				ACBDA6C42052F2B80062C640 /* Currency+CoreDataProperties.swift */,
+				ACBDA6C52052F2B80062C640 /* User+CoreDataClass.swift */,
+				ACBDA6C62052F2B80062C640 /* User+CoreDataProperties.swift */,
 				ACCE6B42204DC5F400F1CBEB /* Corechain */,
 				ACCE6B41204DC5F400F1CBEB /* Products */,
 			);
@@ -57,12 +97,24 @@
 			isa = PBXGroup;
 			children = (
 				ACCE6B43204DC5F500F1CBEB /* AppDelegate.swift */,
-				ACCE6B45204DC5F500F1CBEB /* ViewController.swift */,
+				ACBDA6CF2053F0C10062C640 /* LogIn.swift */,
+				ACBDA6CD2052F48F0062C640 /* AddUser.swift */,
+				ACB81C81204EEF9E00F6F40B /* AddCurrency.swift */,
+				ACBDA6D1205417E80062C640 /* editProfile.swift */,
+				AC3E2A92205AFB33000751ED /* ListItems.swift */,
+				ACCE166D205992EE009104EF /* Item.swift */,
+				AC0935312079363D000C69A7 /* DataItem.swift */,
+				ACB81C7F204EEA6900F6F40B /* CurrencyListTableViewController.swift */,
+				AC2C01DA207BEE8700B79456 /* EditItem.swift */,
 				ACCE6B47204DC5F500F1CBEB /* Main.storyboard */,
-				ACCE6B4D204DC5F500F1CBEB /* Assets.xcassets */,
 				ACCE6B4F204DC5F500F1CBEB /* LaunchScreen.storyboard */,
+				ACCE6B4D204DC5F500F1CBEB /* Assets.xcassets */,
 				ACCE6B52204DC5F500F1CBEB /* Info.plist */,
 				ACCE6B4A204DC5F500F1CBEB /* Corechain.xcdatamodeld */,
+				AC2C01D3207BB00D00B79456 /* ProgressHUD.bundle */,
+				AC2C01D4207BB00E00B79456 /* ProgressHUD.h */,
+				AC2C01D5207BB00E00B79456 /* ProgressHUD.m */,
+				AC2C01D2207BB00C00B79456 /* Corechain-Bridging-Header.h */,
 			);
 			path = Corechain;
 			sourceTree = "<group>";
@@ -99,6 +151,7 @@
 				TargetAttributes = {
 					ACCE6B3F204DC5F400F1CBEB = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0930;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -126,6 +179,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC2C01D6207BB00E00B79456 /* ProgressHUD.bundle in Resources */,
 				ACCE6B51204DC5F500F1CBEB /* LaunchScreen.storyboard in Resources */,
 				ACCE6B4E204DC5F500F1CBEB /* Assets.xcassets in Resources */,
 				ACCE6B49204DC5F500F1CBEB /* Main.storyboard in Resources */,
@@ -139,9 +193,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACCE6B46204DC5F500F1CBEB /* ViewController.swift in Sources */,
+				AC2C01DB207BEE8700B79456 /* EditItem.swift in Sources */,
+				ACBDA6CE2052F48F0062C640 /* AddUser.swift in Sources */,
+				ACBDA6C82052F2B80062C640 /* Categories+CoreDataProperties.swift in Sources */,
+				AC0935322079363D000C69A7 /* DataItem.swift in Sources */,
+				ACB81C82204EEF9E00F6F40B /* AddCurrency.swift in Sources */,
 				ACCE6B44204DC5F500F1CBEB /* AppDelegate.swift in Sources */,
+				AC2C01D7207BB00E00B79456 /* ProgressHUD.m in Sources */,
+				ACCE166E205992EE009104EF /* Item.swift in Sources */,
+				ACBDA6D2205417E80062C640 /* editProfile.swift in Sources */,
+				ACBDA6CB2052F2B80062C640 /* User+CoreDataClass.swift in Sources */,
+				ACBDA6C72052F2B80062C640 /* Categories+CoreDataClass.swift in Sources */,
+				ACB81C80204EEA6900F6F40B /* CurrencyListTableViewController.swift in Sources */,
+				AC3E2A93205AFB33000751ED /* ListItems.swift in Sources */,
+				ACBDA6CC2052F2B80062C640 /* User+CoreDataProperties.swift in Sources */,
+				ACBDA6CA2052F2B80062C640 /* Currency+CoreDataProperties.swift in Sources */,
+				ACBDA6C92052F2B80062C640 /* Currency+CoreDataClass.swift in Sources */,
 				ACCE6B4C204DC5F500F1CBEB /* Corechain.xcdatamodeld in Sources */,
+				ACBDA6D02053F0C10062C640 /* LogIn.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,12 +347,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LX4P693W2D;
 				INFOPLIST_FILE = Corechain/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = alexlopez.com.Corechain;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Corechain/Corechain-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -293,12 +365,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LX4P693W2D;
 				INFOPLIST_FILE = Corechain/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = alexlopez.com.Corechain;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Corechain/Corechain-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
